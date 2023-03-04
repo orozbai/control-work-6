@@ -9,7 +9,7 @@ public class TasksDataModel {
     public TasksDataModel() {
         LocalDate currentDate = LocalDate.now();
         String month = currentDate.getMonth().toString();
-        int day = currentDate.getDayOfMonth();
+        int day = ServerCalendar.getSelectedDay();
         this.calendars = new CurrentCalendar(month, day);
         List<Tasks> tasksList = new ArrayList<>();
         for (int i = 0; i < FileService.readFileTasks().size(); i++) {

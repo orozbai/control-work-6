@@ -14,6 +14,7 @@
 </head>
 <body>
 <h1>Tasks for ${calendars.day} ${calendars.month} 2023</h1>
+<a href="/calendar" class="btn btn-outline-primary" role="button">Back to Calendar</a>
 <div class="allClassesContainer">
     <#list tasks as task>
         <#if task.day == calendars.day>
@@ -39,7 +40,13 @@
                             ${task.description}
                         </td>
                         <td>
-                            <a href="/task-list" class="btn btn-outline-danger" role="button">Delete</a>
+                            <form method="post" action="">
+                                <input type="hidden" name="type" value="${task.type}"/>
+                                <input type="hidden" name="day" value="${task.day}"/>
+                                <input type="hidden" name="name" value="${task.name}"/>
+                                <input type="hidden" name="description" value="${task.description}"/>
+                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                            </form>
                         </td>
                     </#if>
                 </tr>
