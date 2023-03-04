@@ -4,5 +4,35 @@
     "name": "swimming",
     "description": "asdasdasd fasfasf afsfasf asfasf s f wadawsd dwadawdw",
     "type": "green"
+  },
+  {
+    "day": 8,
+    "name": "someName",
+    "description": "some description",
+    "type": "yellow"
+  },
+  {
+    "day": 13,
+    "name": "someName",
+    "description": "some description",
+    "type": "#73ff00"
+  },
+  {
+    "day": 10,
+    "name": "someName",
+    "description": "some description",
+    "type": "#ff0000"
+  },
+  {
+    "day": 10,
+    "name": "someName",
+    "description": "some description",
+    "type": "#087577"
+  },
+  {
+    "day": 10,
+    "name": "someName",
+    "description": "some description",
+    "type": "#00ff1e"
   }
 ]
