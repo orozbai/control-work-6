@@ -1,0 +1,20 @@
+[
+  {
+    "day": 4,
+    "name": "shopping",
+    "description": "asdasdasd wdaw daw  dwa dawdadawd f sh  thr gaea grs",
+    "type": "red"
+  },
+  {
+    "day": 4,
+    "name": "swimming",
+    "description": "asdasdasd fasfasf afsfasf asfasf s f wadawsd dwadawdw",
+    "type": "green"
+  },
+  {
+    "day": 1,
+    "name": "playing",
+    "description": "dsads sasas",
+    "type": "yellow"
+  }
+]
